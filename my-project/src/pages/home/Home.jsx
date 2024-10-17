@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header'; // Assuming you have a Header component
+import Navbar from './components/Navbar'; // Assuming you have a Header component
 import Preloader from './Preloader'; // Assuming you have a Preloader component
 import Footer from './Footer'; // Assuming you have a Footer component
 import CTA from './CTA'; // Assuming you have a CTA component
@@ -11,7 +11,7 @@ const Home = () => {
             <Preloader />
 
             {/* Header Section */}
-            <Header />
+            <Navbar />
 
             {/* Slider Section */}
             <section className="slider-area style-2">

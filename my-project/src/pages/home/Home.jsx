@@ -1,12 +1,4 @@
 import React from 'react';
-import Url from './components/Url'; // Include component imports for your sections
-import Style from './components/Style'; // Tailwind global styles can be managed in index.css
-import Preloader from './components/Preloader';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Cta from './components/Cta';
-import ContactInformation from './components/ContactInformation';
-import Script from './components/Script'; // Optional if you need it for extra JS scripts
 
 const Home = () => {
   return (
@@ -47,7 +39,7 @@ const Home = () => {
         <Preloader />
 
         {/* Header */}
-        <Header />
+        <Navbar />
 
         {/* Slider Section */}
         <section>

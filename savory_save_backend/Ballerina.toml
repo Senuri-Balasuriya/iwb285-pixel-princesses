@@ -1,0 +1,11 @@
+[package]
+org = "user"
+name = "savory_save_backend"
+version = "0.1.0"
+distribution = "2201.10.0"
+
+[build-options]
+observabilityIncluded = true
+
+[dependency]
+ballerina/mysql = "1.4.0"

@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="line__separete"></div>
             <div className="by flex">
               <Link to="/">
-                <img src="images/ss/logo2.png" width="150" height="50" alt="Savory Save Logo" />
+                <img src="" width="150" height="50" alt="Savory Save Logo" />
               </Link>
               <div className="col-lg-3 d-flex justify-content-lg-end justify-content-center align-items-center">
                 <ul className="f-bottom-list d-flex justify-content-start align-items-center">

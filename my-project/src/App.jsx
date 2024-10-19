@@ -1,12 +1,13 @@
-
+import React from 'react';
+import Home from './Home';
 import './App.css'
 
 function App() {
   
   return (
-    <>
-      <h1 className='bg-green-400 font-primary'>hello</h1>
-    </>
+     <div className="App">
+     <Home />
+   </div>
   )
 }
 

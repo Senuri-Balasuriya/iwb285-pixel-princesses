@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css'; // Assuming you have the CSS in an external file
 
 const Footer = () => {
   return (

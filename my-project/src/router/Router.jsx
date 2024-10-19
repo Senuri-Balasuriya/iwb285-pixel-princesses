@@ -5,7 +5,7 @@ import Aboutus from "../pages/Aboutus"; // Ensure this matches the file path and
 import Recipe from "../pages/Recipe";
 import Tips from "../pages/Tips";
 import Privacy from "../pages/privacy";
-import Term from "../pages/term";
+import term from "../pages/term";
 
 
 const router = createBrowserRouter([

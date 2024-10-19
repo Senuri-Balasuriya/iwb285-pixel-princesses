@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css'; // Assuming you're importing external CSS
 
 const Privacy = () => {
   return (
     <div>
-      {/* Header, Sidebar, and Preloader could be imported components */}
+      {/* Header could be imported components */}
       <Navbar />
-      <Preloader />
 
       {/* Menu Sidebar Section Start */}
       <div className="menu-sidebar-area">
@@ -82,8 +80,6 @@ const Privacy = () => {
         </div>
       </div>
 
-      {/* Contact Information and Footer */}
-      <ContactInformation />
       <Footer />
 
       {/* Scroll Up Section Start */}

@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 import { Link } from 'react-router-dom';
-import './style.css'; // Assuming you're importing external CSS
 
-const Terms = () => {
+
+const Term = () => {
   return (
     <div>
-      {/* Header  components */}
-     
       <Navbar />
 
       {/* Menu Sidebar Section Start */}
@@ -77,8 +75,6 @@ const Terms = () => {
         </div>
       </div>
 
-      {/* Contact Information and Footer */}
-      <ContactInformation />
       <Footer />
 
       {/* Scroll Up Section Start */}

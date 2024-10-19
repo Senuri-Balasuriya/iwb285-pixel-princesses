@@ -48,11 +48,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4 flex flex-col lg:flex-row justify-between items-center">
           <Link to="/">
-<<<<<<< Updated upstream
             <img src="/footerlogo.jpg" width="150" height="50" alt="Savory Save Logo" />
-=======
-            <img src="/footerlogo.png" width="150" height="50" alt="Savory Save Logo" />
->>>>>>> Stashed changes
           </Link>
           <div className="mt-4 lg:mt-0 flex space-x-4">
             <Link to="/privacy" className="hover:text-gray-300">Privacy & Policy</Link>

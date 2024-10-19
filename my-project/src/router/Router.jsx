@@ -4,6 +4,9 @@ import Home from "../pages/home/Home";
 import Aboutus from "../pages/Aboutus"; // Ensure this matches the file path and name
 import Recipe from "../pages/Recipe";
 import Tips from "../pages/Tips";
+import Privacy from "../pages/privacy";
+import Term from "../pages/term";
+
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,14 @@ const router = createBrowserRouter([
         path: "/Tips", 
         element: <Tips />, 
       },
+      {
+        path: "/privacy", 
+        element: <Privacy />, 
+      },
+      {
+        path: "/term", 
+        element: <term />, 
+      }
     ],
   },
 ]);

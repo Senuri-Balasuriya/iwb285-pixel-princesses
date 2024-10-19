@@ -25,14 +25,14 @@ const Navbar = () => {
         <div className="container mx-auto">
           <div className="flex items-center justify-between">
             {/* Logo Section */}
-            <div className="logo">
+            <div className="logo ">
               <Link to="/" className="standard-logo">
                 <img src="/public/logo.jpg" alt="logo" className="h-24 w-36" />
               </Link>
             </div>
 
             {/* Navigation Menu */}
-            <nav className="flex-grow ml-auto text-right menu ">
+            <nav className="flex-grow hidden ml-auto text-right menu dropdown-content navbar-center lg:flex">
               <ul className="flex justify-end space-x-6 text-lg font-semibold text-green-950">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Recipe">Recipe Finder</Link></li>
@@ -41,9 +41,9 @@ const Navbar = () => {
                 <li><Link to="/Contactus">Contact Us</Link></li>
               </ul>
             </nav>
-
+           
             {/* Support Button */}
-            <div className="justify-end  header-btn">
+            <div className="justify-end header-btn">
               <Link to="/contact" className="px-4 py-2 text-white transition-all duration-300 bg-green-500 rounded-lg header-btn-a hover:bg-green-600">
                 Support
               </Link>

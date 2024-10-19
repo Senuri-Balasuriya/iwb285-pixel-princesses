@@ -22,18 +22,18 @@ const Recipe = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
           }}>
-          <h1 className="text-6xl font-bold text-center text-green-50">Recipe Finder</h1>
-          <p className="pt-3 text-2xl text-center text-green-300">Discover meals and snacks tailored to your taste by applying filters based on your preferences.</p>
+          <h1 className="text-6xl font-bold text-center text-green-300">Recipe Finder</h1>
+          <p className="pt-3 text-2xl text-center text-green-50">Discover meals and snacks tailored to your taste by applying filters based on your preferences.</p>
         
         
         <div className="p-8 rounded-lg">
           <div className="flex flex-col items-center justify-between md:flex-row">
             {/* Text Section */}
             <div className="md:w-1/2 md:pr-8">
-              <h2 className="text-4xl font-bold text-green-100">
+              <h2 className="text-4xl font-bold text-green-200">
                 Your Ingredients, Our Recipes: Let’s Get Cooking!
               </h2>
-              <p className="mt-4 text-lg text-green-200">
+              <p className="mt-4 text-lg font-semibold text-green-50">
                 Welcome to the Recipe Finder! Here, culinary creativity meets convenience. Simply enter the ingredients you have on hand, and let us help you discover a world of delicious possibilities. Whether you're looking to make a quick meal with leftovers or experiment with new flavors, our smart recipe suggestions will inspire you to whip up something fantastic in no time. Say goodbye to food waste and hello to tasty meals. let’s get cooking!
               </p>
             </div>

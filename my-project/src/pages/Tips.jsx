@@ -46,23 +46,23 @@ const Tips = () => {
       </head>
 
       <body>
-        <header>
-          {/* Include your header here */}
-        </header>
-
-        <div>
-          <h1 className="text-4xl font-bold">Welcome to Your Food Storage Management!</h1>
-          <p className="text-center">Discover meals and snacks tailored to your taste by applying filters based on your preferences.</p>
+      <div className="w-full h-screen opacity-100 pt-36 " style={{
+        backgroundImage: `url('/recipe7.jpeg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',}}>
+        <div className="pt-12">
+          <h1 className="text-6xl font-bold text-center text-green-50">Welcome to Your Food Storage Management!</h1>
+          <p className="pt-3 text-2xl text-center text-green-200">Discover meals and snacks tailored to your taste by applying filters based on your preferences.</p>
         </div>
+        
 
-        <div className="flex flex-col items-center justify-between md:flex-row">
-          {/* Image Section */}
-          <div className="h-auto mt-6 md:w-1/2 md:mt-0 w-36">
-            <img src="images/recipefinder 1.jpg" alt="Delicious Food" className="rounded-lg" />
-          </div>
+        <div className="flex flex-col items-center justify-between pt-4 md:flex-row">
+        
 
           {/* Form Section */}
-          <div className="w-full max-w-md p-6 mt-6 bg-white rounded-lg shadow-lg md:w-1/2 md:mt-0">
+          
+          <div className="w-full max-w-md p-4 mt-6 bg-green-200 border rounded-lg shadow-lg md:w-1/2 md:mt-0">
             <h2 className="mb-6 text-2xl font-semibold text-center">Add Food Item</h2>
 
             <form id="foodForm" onSubmit={handleSubmit}>
@@ -126,13 +126,15 @@ const Tips = () => {
 
               {/* Submit Button */}
               <div className="mt-6">
-                <button type="submit" className="w-full py-2 text-white transition duration-300 bg-blue-500 rounded-md hover:bg-blue-600">
+                <button type="submit" className="w-full py-2 text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-600">
                   Add Food Item
                 </button>
               </div>
             </form>
           </div>
         </div>
+        </div>
+        
       </body>
     </div>
   );

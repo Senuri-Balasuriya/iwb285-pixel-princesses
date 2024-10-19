@@ -1,11 +1,15 @@
 [package]
-org = "user"
+org = "savorysave"
 name = "savory_save_backend"
 version = "0.1.0"
-distribution = "2201.10.0"
+distribution = "slbeta5"
 
 [build-options]
 observabilityIncluded = true
 
-[dependency]
-ballerina/mysql = "1.4.0"
+[dependencies]
+ballerinax/mysql = "1.3.0"
+
+
+
+

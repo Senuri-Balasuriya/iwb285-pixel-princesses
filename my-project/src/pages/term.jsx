@@ -1,11 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 const Term = () => {
   return (
     <div>
       {/* Helmet for managing head metadata */}
+<<<<<<< Updated upstream
       <header>
+=======
+      <div>
+      <head>
+>>>>>>> Stashed changes
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Delicious Journey | Savory Save</title>
@@ -13,7 +22,11 @@ const Term = () => {
         <meta name="description" content="Reduce Food Waste, Save the Planet." />
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" />
+<<<<<<< Updated upstream
       </header>
+=======
+      </head>
+>>>>>>> Stashed changes
 
       {/* Main Section */}
       <section className="relative w-full h-screen">
@@ -115,6 +128,10 @@ const Term = () => {
           </div>
         </div>
       </section>
+<<<<<<< Updated upstream
+=======
+    </div>
+>>>>>>> Stashed changes
     </div>
   );
 };

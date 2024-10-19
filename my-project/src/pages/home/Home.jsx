@@ -36,7 +36,7 @@ const Home = () => {
               </p>
 
               {/* Get Started Button */}
-              <a href="#"
+              <a href="/Aboutus"
                 className="inline-block px-8 py-3 mt-6 text-lg font-semibold text-green-700 bg-white rounded-full hover:bg-green-100"
               >
                 Get Started
@@ -58,23 +58,24 @@ const Home = () => {
     backgroundRepeat: 'no-repeat',
   }}
 >
-  <div className="flex flex-col md:flex-row justify-between">
+  <div className="flex flex-col md:flex-row justify-between p-28">
     {/* Left Section */}
-    <div className="md:w-1/2">
+    <div className="md:w-1/2 p-11">
       <h1 className="text-4xl font-bold text-black">
         <span className="text-green-50">Savor the Flavors</span> <br />
         A Culinary Journey Awaits
       </h1>
-      <p className="mt-4 text-gray-100">
+      <p className="mt-4 text-gray-100 ">
         Explore the rich tapestry of global cuisines, where each dish tells a story, and every bite is a celebration of culture and tradition.
       </p>
-      <button className="px-6 py-3 mt-6 text-white bg-green-600 rounded-lg hover:bg-green-700">
+      <a href="/Recipe"> <button className="px-6 py-3 mt-6 text-white bg-green-600 rounded-lg hover:bg-green-700">
         Discover Recipes
-      </button>
+      </button></a>
+      
     </div>
 
     {/* Right Section: Most Popular Recipes */}
-    <div className="md:w-1/2 mt-12 md:mt-0">
+    <div className="md:w-1/2 mt-12 md:mt-0 p-8">
       <h2 className="text-2xl font-semibold">Most Popular Recipes</h2>
 
       {/* Recipe List */}
@@ -119,8 +120,13 @@ const Home = () => {
 <section className="container mx-auto px-4 py-12">
       {/* Title */}
       <div className="text-center mb-8">
-        <h2 className="text-blue-500 text-xl font-semibold">Beyond Freshness</h2>
+        <h2 className="text-black-300 text-xl font-bold">Beyond Freshness</h2>
         <h1 className="text-4xl font-bold">Discover the Best of Food Storage Tips</h1>
+        <a href="/term">
+      <button className="px-6 py-3 mt-6 text-white bg-green-600 rounded-lg hover:bg-green-700">
+        Follow Store Tips
+      </button>
+      </a>
       </div>
 
       {/* Image Grid */}
@@ -156,7 +162,7 @@ const Home = () => {
     {/* 4ND Section */}
 
 <section 
-  className="relative w-full h-screen "
+  className="relative w-full h-screen p-32 "
   style={{
     backgroundImage: `url('/image 13.jpeg')`,  
     backgroundSize: 'fill',
@@ -166,7 +172,7 @@ const Home = () => {
 >
   <div className="flex flex-col md:flex-row justify-between">
     {/* Left Section */}
-    <div className="md:w-2/3">
+    <div className="md:w-3/5 p-12">
       <h1 className="text-4xl font-bold text-green-50">
       Who We Are
       </h1>
@@ -182,14 +188,19 @@ const Home = () => {
           <li><b>Recipe Collections:</b> Discover new flavors and dishes.</li>
           <li><b>Culinary Guide:</b> Navigate the art of cooking with ease.</li>
         </ul>
+       
       </p>
+      <br/><br/>
+      <a href="/term">
       <button className="px-6 py-3 mt-6 text-white bg-green-600 rounded-lg hover:bg-green-700">
         Discover Recipes
       </button>
+      </a>
+      
     </div>
 
     
-      <div className="md:w-1/3 mt-12 md:mt-0">
+      <div className="md:w-2/5 mt-12 md:mt-0">
      
           <img
               src="/image 12.jpeg"  
@@ -222,9 +233,8 @@ const Home = () => {
           
 
               {/* Get Started Button */}
-              <a href="privacy.jsx"
-                className="inline-block px-8 py-3 mt-6 text-lg font-semibold text-green-700 bg-white rounded-full hover:bg-green-100"
-              >
+              <a href="/privacy"
+                className="inline-block px-8 py-3 mt-6 text-lg font-semibold text-green-700 bg-white rounded-full hover:bg-green-100">
                 Your Data, Our Priority
               </a>
             </div>

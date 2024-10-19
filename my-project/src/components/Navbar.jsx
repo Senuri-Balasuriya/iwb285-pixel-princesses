@@ -32,8 +32,8 @@ const Navbar = () => {
             </div>
 
             {/* Navigation Menu */}
-            <nav className="menu">
-              <ul className="flex space-x-6">
+            <nav className="flex-grow ml-auto text-right menu ">
+              <ul className="flex justify-end space-x-6 text-lg font-semibold text-green-950">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Recipe">Recipe Finder</Link></li>
                 <li><Link to="/Tips">Storage Tips</Link></li>
@@ -43,11 +43,12 @@ const Navbar = () => {
             </nav>
 
             {/* Support Button */}
-            <div className="header-btn">
-              <Link to="/contact" className="header-btn-a">
+            <div className="justify-end  header-btn">
+              <Link to="/contact" className="px-4 py-2 text-white transition-all duration-300 bg-green-500 rounded-lg header-btn-a hover:bg-green-600">
                 Support
               </Link>
             </div>
+          
 
             {/* Mobile Menu Toggle */}
             <div className="mobile-menu-bar lg:hidden text-end">

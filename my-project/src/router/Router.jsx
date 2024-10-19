@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../pages/home/Home";
-import Aboutus from "../pages/Aboutus"; // Ensure this matches the file path and name
+import Aboutus from "../pages/Aboutus"; 
 import Recipe from "../pages/Recipe";
 import Tips from "../pages/Tips";
 import Privacy from "../pages/privacy";

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-black text-white py-12">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="lg:w-1/2">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4 flex flex-col lg:flex-row justify-between items-center">
           <Link to="/">
-            <img src="" width="150" height="50" alt="Savory Save Logo" />
+            <img src="/footerlogo.jpg" width="150" height="50" alt="Savory Save Logo" />
           </Link>
           <div className="mt-4 lg:mt-0 flex space-x-4">
             <Link to="/privacy" className="hover:text-gray-300">Privacy & Policy</Link>

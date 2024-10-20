@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../pages/home/Home";
-import Aboutus from "../pages/Aboutus"; 
+import Aboutus from "../pages/Aboutus"; // Ensure this matches the file path and name
 import Recipe from "../pages/Recipe";
 import Tips from "../pages/Tips";
-import Contactus from "../pages/Contactus";
+import Privacy from "../pages/privacy";
+import Term from "../pages/term";
 
 
 
@@ -29,11 +30,14 @@ const router = createBrowserRouter([
         path: "/Tips", 
         element: <Tips />, 
       },
-      
       {
-        path: "/Contactus", // Correct path
-        element: <Contactus />, // Ensure the component name matches the import
+        path: "/term",
+        element: <Term />, 
       },
+      {
+        path: "/privacy", 
+        element: <Privacy />, 
+      }
     ],
   },
 ]);

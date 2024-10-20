@@ -9,7 +9,7 @@ const ServicesSection = () => {
         <div className="flex items-center gap-4">
           <div className="w-12 h-12">
             {/* Replace src with your icon image */}
-            <img src="/your-icon.png" alt="Services Icon" className="rounded-full" />
+            <img src="/imafe13.jpg" alt="Services Icon" className="rounded-full" />
           </div>
           <div>
             <h3 className="text-2xl font-semibold text-green-600">Our Services</h3>
@@ -29,7 +29,7 @@ const ServicesSection = () => {
       <div className="flex items-center justify-center lg:w-1/2">
         <div className="grid grid-cols-2 gap-4">
           {/* Replace src with your actual image paths */}
-          <img src="/fruit-salad.jpg" alt="Fruit Salad" className="object-cover rounded-full shadow-lg" />
+          <img src="/image 12.jpg" alt="Fruit Salad" className="object-cover rounded-full shadow-lg" />
           <img src="/food_image_09.jpg" alt="Mango Drink" className="object-cover rounded-full shadow-lg" />
         </div>
       </div>

@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="py-12 text-white bg-black">
-      <div className="container px-6 mx-auto lg:px-20">
-        <div className="flex flex-col justify-between gap-8 lg:flex-row">
+    <footer className="bg-black text-white py-12">
+      <div className="container mx-auto px-6 lg:px-20">
+        <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="lg:w-1/2">
-            <h2 className="mb-4 text-2xl font-bold">About Savory Save</h2>
+            <h2 className="text-2xl font-bold mb-4">About Savory Save</h2>
             <p className="text-gray-400">
               Whether you're cooking for a family or experimenting in the kitchen, our recipes are designed to be budget-friendly and delicious.
             </p>
           </div>
           <div className="lg:w-1/4">
-            <h2 className="mb-4 text-2xl font-bold">Quick Links</h2>
+            <h2 className="text-2xl font-bold mb-4">Quick Links</h2>
             <ul className="space-y-2">
               <li><Link to="/" className="hover:text-gray-300">Home</Link></li>
               <li><Link to="/recipe" className="hover:text-gray-300">Recipe Finder</Link></li>
@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="lg:w-1/4">
-            <h2 className="mb-4 text-2xl font-bold">Social Media</h2>
+            <h2 className="text-2xl font-bold mb-4">Social Media</h2>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="flex items-center space-x-2">
@@ -46,14 +46,14 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-between pt-4 mt-8 border-t border-gray-700 lg:flex-row">
+        <div className="border-t border-gray-700 mt-8 pt-4 flex flex-col lg:flex-row justify-between items-center">
           <Link to="/">
             <img src="/footerlogo.jpg" width="150" height="50" alt="Savory Save Logo" />
           </Link>
-          <div className="flex mt-4 space-x-4 lg:mt-0">
+          <div className="mt-4 lg:mt-0 flex space-x-4">
             <Link to="/privacy" className="hover:text-gray-300">Privacy & Policy</Link>
             <span>|</span>
-            <Link to="/terms" className="hover:text-gray-300">Terms of Use</Link>
+            <Link to="/term" className="hover:text-gray-300">Terms of Use</Link>
           </div>
         </div>
       </div>

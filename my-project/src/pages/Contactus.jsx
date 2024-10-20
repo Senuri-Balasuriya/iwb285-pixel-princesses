@@ -3,7 +3,7 @@ import 'jquery-toast-plugin/dist/jquery.toast.min.css';
 import "jquery-toast-plugin";
 
 
-export default function Contactus() {
+const Contactus = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -42,9 +42,9 @@ export default function Contactus() {
     };
 
     return (
-        <section className="bg-white py-8">
+        <section className="py-8 bg-white">
             <div className="container mx-auto">
-                <h2 className="text-2xl font-bold text-center mb-6">Give us your feedback</h2>
+                <h2 className="mb-6 text-2xl font-bold text-center">Give us your feedback</h2>
                 <form className="max-w-2xl mx-auto" onSubmit={handleSubmit}>
                     <div className="mb-4">
                         <label className="block mb-1 text-gray-700">Full Name</label>
@@ -63,10 +63,11 @@ export default function Contactus() {
                         <textarea name="message" value={formData.message} onChange={handleChange} className="w-full p-2 border border-gray-300 rounded" placeholder="Your Message"></textarea>
                     </div>
                     <div className="text-center">
-                        <button type="submit" className="bg-green-500 text-white py-2 px-4 rounded">Submit</button>
+                        <button type="submit" className="px-4 py-2 text-white bg-green-500 rounded">Submit</button>
                     </div>
                 </form>
             </div>
         </section>
     );
 }
+export default Contactus;

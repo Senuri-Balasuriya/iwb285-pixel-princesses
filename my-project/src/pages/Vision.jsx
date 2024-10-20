@@ -2,12 +2,12 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <section className="bsb-cta-1 px-2 bg-cover" style={{ backgroundImage: "url('./src/assets/pexels-tomáš-malík-1998434.jpg')" }}>
+    <section className="h-screen px-2 pt-64 bg-cover bsb-cta-1" style={{ backgroundImage: "url('/food_image_19.jpg')" }}>
       <div className="container">
-        <div className="row pt-10 pb-50">
-          <div className="col-lg-12 col-md-6 text-white">
-            <h2 className="display text-white mb-4">Our Vision</h2>
-            <p>
+        <div className="pt-10 row pb-50">
+          <div className="text-white col-lg-12 col-md-6">
+            <h2 className="mb-4 text-6xl font-bold text-center text-green-100 display">Our Vision</h2>
+            <p className="p-4 text-3xl">
               We encourage you to reduce food waste, offering solutions to this global problem.
               Our platform guides you to find the best, easy, delicious, and healthy recipes using ingredients from your pantry.
             </p>

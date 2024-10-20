@@ -6,6 +6,10 @@ import Recipe from "../pages/Recipe";
 import Tips from "../pages/Tips";
 import Privacy from "../pages/privacy";
 import Term from "../pages/term";
+import Vision from "../pages/Vision";
+
+
+
 
 
 
@@ -22,6 +26,7 @@ const router = createBrowserRouter([
         path: "/Aboutus", // Correct path
         element: <Aboutus />, // Ensure the component name matches the import
       },
+      
       {
         path: "/Recipe", 
         element: <Recipe />, 
@@ -37,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/privacy", 
         element: <Privacy />, 
+      },
+      {
+        path:"/Vision",
+        element:<Vision/>
       }
     ],
   },
